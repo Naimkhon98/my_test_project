@@ -49,10 +49,5 @@ switch ($action) {
         require_once "web/task.php";
         break;
 
-    /*default:
-        $task = new TaskList();
-        $result = $task->getAllTasks();
-        require_once "web/task.php";
-        break;*/
 }
 ?>
