@@ -106,7 +106,7 @@ ul.menu-list li a:hover{
     text-decoration: underline;
 }
 
-#btnSubmit {
+/*#btnSubmit {
     padding: 8px;
     background: #09F;
     border: #048eec 1px solid;
@@ -114,7 +114,7 @@ ul.menu-list li a:hover{
     font-size: 0.9em;
     border-radius: 3px;
     width: 150px;
-}
+}*/
 .attendance_table td {
     text-align: center;
 }

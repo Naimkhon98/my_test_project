@@ -14,12 +14,13 @@
         <input type="text" name="task_text" id="task_text" class="demoInputBox">
     </div>
     <div>
-        <input type="submit" name="add" id="btnSubmit" value="Add">
+        <input type="submit" name="add" class="btn btn-outline-success" id="btnSubmit" value="Добавить">
     </div>
     </div>
 </form>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script>
+    $('input').addClass('form-control');
 function validate() {
     var valid = true;   
     $(".demoInputBox").css('background-color','');
@@ -43,5 +44,6 @@ function validate() {
     return valid;
 }
 </script>
-</body>
-</html>
+<?php
+require_once "footer.php";
+?>
