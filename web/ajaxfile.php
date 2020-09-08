@@ -19,6 +19,7 @@ $columnName = $_POST['columns'][$columnIndex]['data']; // Column name
 $columnSortOrder = $_POST['order'][0]['dir']; // asc or desc
 $searchValue = $_POST['search']['value']; // Search value
 
+
 ## Search 
 $searchQuery = " ";
 if ($searchValue != '') {
